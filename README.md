@@ -38,7 +38,7 @@ Usage: forexcast [OPTIONS] CURRENCY
 Options:
   --from_date TEXT   Data after this date will be included.
   --to_date TEXT     Data after this date will be excluded.
-  --periods INTEGER  Periods to for make_future_dataframe.
+  --periods INTEGER  Periods to predict.
   --out TEXT         If specified will save forecast in specified dir.
   --help             Show this message and exit.
 ```

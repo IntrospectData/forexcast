@@ -82,7 +82,7 @@ def forecast(periods=365, df=None, out=None, currency="EUR", quote_currency="USD
 @click.argument('currency')
 @click.option('--from_date', default="2019-01-01", help="Data after this date will be included.")
 @click.option('--to_date', default=str(datetime.date.today()), help="Data after this date will be excluded.")
-@click.option('--periods', default=365, help='Periods to for make_future_dataframe.')
+@click.option('--periods', default=365, help='Periods to predict.')
 @click.option('--out', default=None, help="If specified will save forecast in specified dir.")
 def main(currency, from_date, to_date, periods, out):
     """
