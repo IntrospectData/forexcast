@@ -15,7 +15,7 @@ setup(
     long_description_content_type='text/markdown',
     author='Bradley Reimers',
     author_email = 'b.a.reimers@gmail.com',
-    url = '',
+    url = 'https://github.com/IntrospectData/forexcast',
     download_url = '',
     keywords = ['forecast', 'finance', 'fintech', 'currency', 'fbprophet'],
     py_modules=['forexcast'],
