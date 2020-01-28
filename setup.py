@@ -16,7 +16,7 @@ setup(
     author='Bradley Reimers',
     author_email = 'b.a.reimers@gmail.com',
     url = 'https://github.com/IntrospectData/forexcast',
-    download_url = '',
+    download_url = 'https://github.com/IntrospectData/forexcast/archive/v0.1.0.tar.gz',
     keywords = ['forecast', 'finance', 'fintech', 'currency', 'fbprophet'],
     py_modules=['forexcast'],
     install_requires=[
