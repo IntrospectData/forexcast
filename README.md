@@ -17,7 +17,7 @@ Simple currency forecasting for IEX data
 `$ source env/bin/activate`
 
 `(env) $ pip3 install forexcast`
----
+
 
 ## Setup
 On your first use the app will ask for your IEX api key and your desired quote-currency.
